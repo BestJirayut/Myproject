@@ -1,53 +1,26 @@
-
 import './App.css';
 
 function App() {
   return (
     <div>
-        <section>
-          <div class="container">
-            <div class="background-img">
-              <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                  <img src="https://scontent.fbkk5-5.fna.fbcdn.net/v/t39.30808-6/316426651_1858924314447099_728442041240213632_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WbRJWp5XPkoAX9J3hFZ&_nc_ht=scontent.fbkk5-5.fna&oh=00_AfAsCfcKCte8cy1Vtr4oka4i0pFQ_ctK3e0E4SRtmgmmSg&oe=64EE3A6F" alt="" width="280"></img>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <th>ชื่อ</th>
-                        <td>จิรายุทธ ภูมิชัย</td>
-                      </tr>
-                      <tr>
-                        <th>อายุ</th>
-                        <td>จิรายุทธ ภูมิชัย</td>
-                      </tr>
-                      <tr>
-                        <th>ชื่อ</th>
-                        <td>จิรายุทธ ภูมิชัย</td>
-                      </tr>
-                      <tr>
-                        <th>ชื่อ</th>
-                        <td>จิรายุทธ ภูมิชัย</td>
-                      </tr>
-                      <tr>
-                        <th>ชื่อ</th>
-                        <td>จิรายุทธ ภูมิชัย</td>
-                      </tr>
-                      <tr>
-                        <th>ชื่อ</th>
-                        <td>จิรายุทธ ภูมิชัย</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-        
-              </div>
+      <div className='card'>
+        <img src='https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/241678744_1537544179918449_6477526577586577858_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=Z3ldswygyIAAX8j3Xef&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfDVV1pknQZsYd_gq9f3mSjDm1G9r2savsP0s84mp92NUg&oe=64F22FCA' alt=''></img>
+        <div className='name-title'>
+          <div className='mt-2'>
+            <h1>JIRAYUT PHUMCHAI</h1>
+            <span className='pd-text'>กำลังศึกษาที่มหาวิทยาลัยเทคโนโลยีมหานคร ปีที่ 4 คณะวิศวกรรมศาสตร์ สาขาวิศวะกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</span>
+          </div>
+          <div>
+            <h3 className='mt-4'>ข้อมูลส่วนตัว</h3>
+            <div>
+              <span>11/05/2002</span>
+              <span>11/05/2002</span>
             </div>
           </div>
-        </section>
+        </div>
+       
+        
+      </div>
     </div>
   );
 }
